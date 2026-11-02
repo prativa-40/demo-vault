@@ -2,5 +2,8 @@
   "name": "household-vault",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "start": "node server.js" }
+  "scripts": {
+    "start": "node server.js",
+    "start:local": "node start.js"
+  }
 }
