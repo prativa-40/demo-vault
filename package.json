@@ -1,9 +1,19 @@
 {
   "name": "household-vault",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "start:local": "node start.js"
+    "setup-db": "node setup-db.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.15.0",
+    "pg": "^8.13.0",
+    "sharp": "^0.33.0",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "isomorphic-git": "^1.44.9"
   }
 }

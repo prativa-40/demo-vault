@@ -1,0 +1,7 @@
+node_modules/
+eng.traineddata
+*.log
+.DS_Store
+data/documents/
+data/*.enc
+data/.hearth-dev-key
